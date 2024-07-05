@@ -1,10 +1,10 @@
-title: Jekyll Serial Programmer
+title: Christian Batista
 markdown: kramdown
 
 # for atom feed
 author:
-  name: Sharad Raj Singh Maurya
-  email: dev_sharad@outlook.com
+  name: christian batista
+  email: me@christianbatista.info
 
 plugins:
   - jemoji
