@@ -98,7 +98,6 @@ poetry add --dev pytest
 Se você precisar usar uma versão específica do Python, especifique no pyproject.toml:
 
 ```toml
-
 [tool.poetry.dependencies]
 python = "^3.9"
 ```
