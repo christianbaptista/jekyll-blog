@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Poetry pip alternative python
+title: Poetry, uma alternativa ao pip python.
 date: 2024-08-22
 categories: ["python", "linux", "poetry", "pip"]
 ---
 ![Dummy Image 1](https://picsum.photos/1366/768)
 
-## Completo de Poetry
+
 
 O Poetry é uma ferramenta moderna para o gerenciamento de pacotes e ambientes em Python, que visa simplificar o fluxo de trabalho de desenvolvimento. Este tutorial fornecerá uma visão abrangente do uso do Poetry, cobrindo desde a instalação até a migração de projetos existentes usando pip.
 
@@ -75,7 +75,7 @@ poetry add requests@2.25.1
 
 O Poetry cria um arquivo poetry.lock para garantir que todos os desenvolvedores usem as mesmas versões de pacotes. Para instalar as dependências com base no poetry.lock, use:
 
-```sh
+```shell
 poetry install
 ```
 
