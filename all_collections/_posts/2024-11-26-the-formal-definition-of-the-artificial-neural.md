@@ -36,34 +36,34 @@ x_m
 
 ### **Pesos**
 O vetor de pesos \( w \), associado às entradas, é:
-\[
-w =
+
+$$ w =
 \begin{bmatrix}
 w_1 \\
 w_2 \\
 \vdots \\
 w_m
 \end{bmatrix}
-\]
+ $$
 
 ### **Combinação Linear (Net Input)**
 A combinação linear das entradas e pesos (\( z \), também chamado de **net input** ou **entrada líquida**) é:
-\[
+$$ \[
 z = w_1x_1 + w_2x_2 + \dots + w_mx_m = w^T x
-\]
+\] $$
 
 ---
 
 ## 2. Função de Ativação
 
-A **função de ativação** \( \phi(z) \) determina a saída do neurônio com base no valor de \( z \):
-\[
+A **função de ativação** $$ \( \phi(z) \) $$ determina a saída do neurônio com base no valor de \( z \):
+$$ \[
 \phi(z) =
 \begin{cases}
 1 & \text{se } z \geq \theta \\
 -1 & \text{se } z < \theta
 \end{cases}
-\]
+\] $$
 Onde \( \theta \) é o **limiar (threshold)**.
 
 ---
@@ -72,15 +72,15 @@ Onde \( \theta \) é o **limiar (threshold)**.
 
 ### **Movendo o Limiar**
 Para simplificar os cálculos, o limiar \( \theta \) é movido para o lado esquerdo da equação:
-\[
+$$ \[
 z - \theta \geq 0 \implies z = w_0x_0 + w_1x_1 + \dots + w_mx_m
-\]
+\] $$
 
 ### **Introduzindo o Bias**
 Introduz-se um termo chamado **bias** (\( w_0 = -\theta \)) e define-se \( x_0 = 1 \). Assim, a fórmula é reescrita como:
-\[
+$$ \[
 z = w_0x_0 + w_1x_1 + \dots + w_mx_m = w^T x
-\]
+\] $$
 
 ---
 
