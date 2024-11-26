@@ -143,8 +143,8 @@ z = (-0.5) + (0.7 \cdot 0.8) + (0.3 \cdot 0.6)
  $$
 
 ### Passo a passo:
-1. $$ 0.7 \cdot 0.8 = 0.56 $$
-2. $$ 0.3 \cdot 0.6 = 0.18 $$
+1. Primeiro dado $$ 0.7 \cdot 0.8 = 0.56 $$
+2. Segundo dado $$ 0.3 \cdot 0.6 = 0.18 $$
 3. Soma total: $$ -0.5 + 0.56 + 0.18 = 0.24 $$
 
 ---
