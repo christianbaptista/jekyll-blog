@@ -9,7 +9,7 @@ categories: ["matrix", "AI", "neural", "artificial neural"]
 ![Dummy Image 1](https://picsum.photos/1366/768)
 
 Contexto:
-\usepackage{amsmath}
+
 
 O conceito de neurônio artificial é aplicado em uma tarefa de classificação binária, onde existem duas classes:
 
