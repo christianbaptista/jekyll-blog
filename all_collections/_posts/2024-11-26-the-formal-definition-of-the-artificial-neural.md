@@ -27,9 +27,9 @@ A entrada é um vetor \( x \), contendo os valores das entradas do neurônio:
 
 \[x =
 \begin{bmatrix}
-x_1 \\
-x_2 \\
-\vdots \\
+x_1 \\\\
+x_2 \\\\
+\vdots \\\\
 x_m
 \end{bmatrix}
 \]
