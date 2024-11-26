@@ -174,7 +174,7 @@ $$
   - Nota de participação $$ (x_2) $$ : **0.6**
 
 - **Cálculo:**
-  - $$ z = 0.24 $$
+  - Resultado é $$ z = 0.24 $$
 
 - **Classificação:**
   - Saída: **+1 (Aprovado)**
