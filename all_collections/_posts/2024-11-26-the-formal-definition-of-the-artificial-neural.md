@@ -65,6 +65,7 @@ $$
 -1 & \text{se } z < \theta
 \end{cases}
  $$
+
 Onde $$ \theta $$ é o **limiar (threshold)**.
 
 ---
