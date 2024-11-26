@@ -48,23 +48,23 @@ w_m
 
 ### **Combinação Linear (Net Input)**
 A combinação linear das entradas e pesos (\( z \), também chamado de **net input** ou **entrada líquida**) é:
-$$ \[
+$$
 z = w_1x_1 + w_2x_2 + \dots + w_mx_m = w^T x
-\] $$
+ $$
 
 ---
 
 ## 2. Função de Ativação
 
-A **função de ativação** $$ \( \phi(z) \) $$ determina a saída do neurônio com base no valor de \( z \):
-$$ \[
+A **função de ativação** $$ \phi(z) $$ determina a saída do neurônio com base no valor de \( z \):
+$$
 \phi(z) =
 \begin{cases}
 1 & \text{se } z \geq \theta \\
 -1 & \text{se } z < \theta
 \end{cases}
-\] $$
-Onde \( \theta \) é o **limiar (threshold)**.
+ $$
+Onde $$ \theta $$ é o **limiar (threshold)**.
 
 ---
 
