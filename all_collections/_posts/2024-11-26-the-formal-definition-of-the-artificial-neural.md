@@ -26,12 +26,12 @@ O conceito de neurônio artificial é aplicado em uma tarefa de classificação 
 A entrada é um vetor \( x \), contendo os valores das entradas do neurônio:
 
 \[x =
-\begin{bmatrix}
-x_1 \\\\
-x_2 \\\\
-\vdots \\\\
+\begin{array}
+x_1 \\
+x_2 \\
+\vdots \\
 x_m
-\end{bmatrix}
+\end{array}
 \]
 
 ### **Pesos**
