@@ -12,8 +12,8 @@ Contexto:
 
 O conceito de neurônio artificial é aplicado em uma tarefa de classificação binária, onde existem duas classes:
 
->    **Classe positiva**: representada por +1
->    **Classe negativa**: representada por -1
+-    **Classe positiva**: representada por +1
+-    **Classe negativa**: representada por -1
 
 
 # Definição Formal de um Neurônio Artificial
@@ -23,7 +23,6 @@ O conceito de neurônio artificial é aplicado em uma tarefa de classificação 
 
 ### **Entradas**
 A entrada é um vetor \( x \), contendo os valores das entradas do neurônio:
-\[
 x =
 \begin{bmatrix}
 x_1 \\
@@ -31,7 +30,7 @@ x_2 \\
 \vdots \\
 x_m
 \end{bmatrix}
-\]
+
 
 ### **Pesos**
 O vetor de pesos \( w \), associado às entradas, é:
@@ -162,7 +161,7 @@ Como \(z = 0.24 \geq 0\), a saída é:
   - Nota de participação (\(x_2\)): **0.6**
 
 - **Cálculo:**
-  - $$ \(z = 0.24\) $$
+  - $$ (z = 0.24) $$
 
 - **Classificação:**
   - Saída: **+1 (Aprovado)**
