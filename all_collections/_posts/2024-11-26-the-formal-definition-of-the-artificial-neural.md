@@ -37,9 +37,9 @@ O vetor de pesos \( w \), associado às entradas, é:
 \[
 w =
 \begin{bmatrix}
-w_1
-w_2
-\vdots
+w_1\\
+w_2\\
+\vdots\\
 w_m
 \end{bmatrix}
 \]
