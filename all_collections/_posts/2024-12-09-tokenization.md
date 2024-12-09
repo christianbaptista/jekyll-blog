@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tokenizar por que é importante?
-date: 2024-01-22
+date: 2024-12-22
 categories: ["python", "NLT", "ML", "AI", "NLTK", "spaCy"]
 ---
 
@@ -149,8 +149,13 @@ O valor da similaridade varia entre -1 e 1:
 
 Suponha que os vetores embedding AA (idiomático) e BB (literal) sejam:
 
+
 $$
 \|A\| = \sqrt{\sum_{i=1}^{n} A_i^2}, \quad \|B\| = \sqrt{\sum_{i=1}^{n} B_i^2}
+$$
+
+$$
+A = [1, 0, 1], \quad B = [0.5, 0.5, 0.5]
 $$
 
 1. Produto Escalar:
@@ -159,17 +164,28 @@ $$
 A \cdot B = (A_1 \cdot B_1) + (A_2 \cdot B_2) + \dots + (A_n \cdot B_n)
 $$
 
+$$
+A \cdot B = (1 \times 0.5) + (0 \times 0.5) + (1 \times 0.5) = 1
+$$
+
 2. Norma dos Vetores:
 
 $$
 \|A\| = \sqrt{A_1^2 + A_2^2 + \dots + A_n^2}, \quad \|B\| = \sqrt{B_1^2 + B_2^2 + \dots + B_n^2}
 $$
 
+$$
+\|A\| = \sqrt{1^2 + 0^2 + 1^2} = \sqrt{2}, \quad \|B\| = \sqrt{0.5^2 + 0.5^2 + 0.5^2} = \sqrt{0.75}
+$$
 
 3. Similaridade de Cosseno:
 
 $$
 \text{Sim}(A, B) = \frac{(A_1 \cdot B_1) + (A_2 \cdot B_2) + \dots + (A_n \cdot B_n)}{\sqrt{A_1^2 + A_2^2 + \dots + A_n^2} \cdot \sqrt{B_1^2 + B_2^2 + \dots + B_n^2}}
+$$
+
+$$
+\text{Sim}(A, B) = \frac{1}{\sqrt{2} \times \sqrt{0.75}} \approx 0.816
 $$
 
 Esse valor indica alta similaridade entre os vetores, o que poderia representar, por exemplo, uma palavra com significado semelhante nos dois contextos.
