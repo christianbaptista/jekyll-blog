@@ -2,7 +2,7 @@
 layout: post
 title: Zero shot learning
 date: 2024-11-29
-categories: ["matrix", "AI", "neural", "artificial neural"]
+categories: ["ML", "LLM"]
 ---
 
 
