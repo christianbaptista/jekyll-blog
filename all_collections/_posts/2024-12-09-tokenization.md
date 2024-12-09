@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tokenizar por que é importante?
-date: 2024-12-22
+date: 2024-12-09
 categories: ["python", "NLT", "ML", "AI", "NLTK", "spaCy"]
 ---
 
